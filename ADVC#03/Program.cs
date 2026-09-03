@@ -1,4 +1,6 @@
-﻿namespace ADVC_03
+﻿using static System.Net.Mime.MediaTypeNames;
+
+namespace ADVC_03
 {
     internal class Program
     {
@@ -74,6 +76,37 @@
 
 
             #endregion
+            #region Quetions4
+
+            //HashSet<string> Emails = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+
+            //Emails.Add("ahmed@test.com");
+            //Emails.Add("AHMED@test.com");
+            //Emails.Add("sara@test.com");
+            //Emails.Add("SARA@test.com");
+
+     
+            //Console.WriteLine(Emails.Count());
+            ////Now, StringComparer.OrdinalIgnoreCase prevents duplicates.
+            //Console.WriteLine("----------------------------------------------------------");
+            //HashSet<int> setA = [1, 2, 3,4,5];
+            //HashSet<int> setB = [4, 5, 6, 7, 8];
+            //var unionSet = setA.Union(setB);
+            //Console.WriteLine(string.Join(", ", unionSet));
+            //var insIntersectWith = setA.Intersect(setB);
+            //Console.WriteLine(string.Join(", ", insIntersectWith));
+            //var exceptSet = setA.Except(setB);
+            //Console.WriteLine(string.Join(", ", exceptSet));
+
+            //HashSet<int> subset = new HashSet<int> { 1, 2 };
+            //var isSubset = subset.IsSubsetOf(setA);
+            //Console.WriteLine($"Is subset a subset of setA? {isSubset}");
+
+
+
+
+            #endregion
+
         }
     }
 }
