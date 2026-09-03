@@ -20,6 +20,37 @@
             //Console.WriteLine(string.Join(", ", newGrads));
 
             #endregion
+            #region Quetions2
+          //  SortedDictionary<int,string> players=new SortedDictionary<int,string>();
+          //  {
+          //      players.Add(500, "Ahmed");
+          //      players.Add(200, "Sare");
+          //      players.Add(800, "Ali");
+          //      players.Add(350, "Mona");
+          //  }
+          //foreach(var player in players)
+          //  {
+          //      Console.WriteLine($"{player.Key}, {player.Value}");
+          //  }
+          //  Console.WriteLine(players.First());
+          //  Console.WriteLine(players.Any(x=>x.Key==500));
+          //  if (players.TryGetValue(900, out string? value))
+          //  {
+          //      Console.WriteLine($"Found player: {value}");
+
+          //  }
+          //  else
+          //  {
+          //      Console.WriteLine("Player with score 900 was not found");
+          //  }
+          //  players.Remove(200);
+          //  foreach (var player in players)
+          //  {
+          //      Console.WriteLine($"{player.Key}, {player.Value}");
+          //  }
+
+
+            #endregion
         }
     }
 }
